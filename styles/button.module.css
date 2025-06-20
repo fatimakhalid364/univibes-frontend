@@ -1,0 +1,57 @@
+.button {
+    padding: 0px 30px;
+    height: 45px;
+    border-radius: 8px;
+    width: fit-content;
+    
+}
+
+.button a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.primaryButton {
+    background-color: var(--primary-color);
+}
+
+.primaryButton a {
+    color: white;
+}
+
+.secondaryButton {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+}
+
+.secondaryButton a {
+    color:var(--primary-color);
+}
+
+
+
+@media (max-width: 1024px) {
+    .button {
+        width: fit-content;
+        padding: 0px 20px;
+        height: 40px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .hideButtonBelow768 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hideButtonAbove768 {
+        display: none;
+    }
+}
+

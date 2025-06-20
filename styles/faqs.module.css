@@ -1,0 +1,33 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    margin-top: clamp(105px, 17vh, 150px);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+    width: 90%;
+    gap: 5px;
+}
+
+.boldText, .thinText {
+    text-align: center;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 0px 10px;
+    margin-top: 10px;
+}

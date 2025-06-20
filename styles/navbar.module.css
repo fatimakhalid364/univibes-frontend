@@ -1,0 +1,68 @@
+.navContainer {
+  width: 100vw;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.navbar {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  width: 190px;
+  height: 85px;
+  position: relative;
+}
+
+.logoImg {
+  object-fit: contain;
+}
+
+
+.navLinks {
+  gap: 35px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.navLinks a {
+  color: #303249;
+}
+
+.navLinks a:hover {
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .logoContainer {
+        width: 150px;
+        height: 70px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navLinks {
+      display: none;
+    }
+}
+
+
+
+
+
