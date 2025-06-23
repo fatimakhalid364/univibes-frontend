@@ -4,13 +4,16 @@ import mainStyles from '@/styles/navbar.module.css';
 import buttonStyles from '@/styles/button.module.css';
 import { NavToggle } from './NavToggle';
 import { Button } from './Button';
+import Script from 'next/script';
+import { Organization } from 'schema-dts';
 
 export const Navbar = () => {
+
     return (
         <nav className={mainStyles.navContainer}>
             <div className={mainStyles.navbar}>
                 <div className={mainStyles.logoContainer}>
-                    <Image className={mainStyles.logoImg} src="/logo.png" alt="app-logo" fill />
+                    <Image className={mainStyles.logoImg} src="/logo.png"  alt="Univibes logo personalized educational guidance platform" fill priority />
                 </div>
                 <div className={mainStyles.navLinks}>
                     <Link className="link" href="#home">Home</Link>

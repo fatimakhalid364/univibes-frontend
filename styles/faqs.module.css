@@ -25,9 +25,14 @@
 .bodyContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 80%;
     padding: 0px 10px;
-    margin-top: 10px;
+    margin-top: 50px;
+}
+
+@media (max-width: 426px) {
+    .bodyContainer {
+        width: 95%;
+    }
 }

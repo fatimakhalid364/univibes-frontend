@@ -17,7 +17,7 @@ export const Hero = () => {
                 </div>
             </div>
             <div className={mainStyles.imgContainer}>
-                <Image className={mainStyles.img} src="/video.svg" alt="hero-img" fill />
+                <Image className={mainStyles.img} src="/video.svg" alt="hero-img" fill priority />
                 <span className={mainStyles.shape1}></span>
                 <span className={mainStyles.shape2}></span>
             </div>
