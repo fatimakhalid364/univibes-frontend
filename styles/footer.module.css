@@ -1,0 +1,84 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    margin-top: clamp(105px, 17vh, 150px);
+    background-color: var(--tertiary-color);
+    height: fit-content;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    padding: 0px 10px;
+    margin-top: 50px;
+}
+
+.logoContainer {
+    width: 190px;
+    height: 85px;
+    position: relative;
+}
+
+.logoImg {
+    object-fit: contain;
+}
+
+.linksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.linkColor {
+    color: var(--primary-color);
+}
+
+.footerText {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.socialIcons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    color: var(--primary-color);
+}
+
+.copyRight {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+
+    .logoContainer {
+        width: 150px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .copyRight, .footerText, .linkColor {
+        font-size: 16px;
+    }
+}

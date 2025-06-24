@@ -1,6 +1,7 @@
 import { Nunito, Rubik } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import Script from 'next/script';
 import { Organization } from 'schema-dts';
 import {localUrl} from '@/constants/urls';
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
         />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

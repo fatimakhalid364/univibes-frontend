@@ -5,6 +5,7 @@ import { Differences } from "@/components/Differences";
 import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQs } from "@/components/FAQs";
+
 export default function Home() {
   return (
     <>

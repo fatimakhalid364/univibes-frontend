@@ -15,14 +15,14 @@ export const Accordian = ({faqs}) => {
             <div key={index} className={mainStyles.faqItem}>
                 <div onClick={() => toggle(index)} className={mainStyles.questionContainer}>
                     <p
-                        className={`${mainStyles.faqQuestion} ${openIndex === index ? mainStyles.active : ''}`}
+                        className={mainStyles.faqQuestion}
                         
                         aria-expanded={openIndex === index}
                         aria-controls={`faq-answer-${index}`}
                     >
                         {faq.question}
                     </p>
-                    <Image className={mainStyles.dropdownImg} src="/dropdown.svg" alt="dropdown" width={20} height={20} />
+                    <Image className={`${mainStyles.dropdownImg} ${openIndex === index ? mainStyles.active : ''}`} src="/dropdown.svg" alt="dropdown" width={20} height={20} />
                 </div>
                 <div className={`${mainStyles.answerContainer} ${openIndex === index ? mainStyles.show : ''}`}>
                     <p

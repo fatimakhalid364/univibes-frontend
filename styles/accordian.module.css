@@ -34,10 +34,21 @@
 
 .dropdownImg {
     padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdownImg.active {
+    transform: rotate(-180deg);
+
 }
 
 @media (max-width: 426px) {
     .accordion {
         width: 95%;
+    }
+
+    .dropdownImg {
+        width: 15px;
+        height: 15px;
     }
 }
