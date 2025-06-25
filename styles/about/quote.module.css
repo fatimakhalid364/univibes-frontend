@@ -1,0 +1,89 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    margin-top: clamp(105px, 17vh, 150px);
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 0px 10px;
+    gap: 45px;
+    margin-top: 40px;
+}
+
+.imgContainer {
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.descContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    font-style: italic;
+}
+
+.descText {
+    text-align: center;
+    font-family: var(--font-rubik);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.span {
+    color: var(--primary-color);
+}
+
+/* .closeQuote {
+    margin-left: 90%;
+} */
+
+@media (max-width: 1024px) {
+    .responsive-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bodyContainer {
+        flex-direction: column;
+    }
+    .imgContainer {
+        width: 100%;
+    }
+    .descContainer {
+        width: 100%;
+        align-items: center;
+    }
+    .descText {
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 426px) {
+    .bodyContainer {
+        width: 95%;
+    }
+    .descContainer {
+        gap: 20px;
+    }
+    .descText {
+        font-size: 22px;
+    }
+}

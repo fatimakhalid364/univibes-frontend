@@ -16,8 +16,8 @@ export const Navbar = () => {
                     <Image className={mainStyles.logoImg} src="/logo.png"  alt="Univibes logo personalized educational guidance platform" fill priority />
                 </div>
                 <div className={mainStyles.navLinks}>
-                    <Link className="link" href="#home">Home</Link>
-                    <Link className="link" href="#about">About</Link>
+                    <Link className="link" href="/">Home</Link>
+                    <Link className="link" href="/about">About</Link>
                     <Link className="link" href="#people">Services</Link>
                     <Link className="link" href="#why-us">FAQs</Link>
                 </div>

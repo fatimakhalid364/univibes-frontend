@@ -1,0 +1,26 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 15px;
+    gap: 18px;
+    background-color: var(--tertiary-color);
+}
+
+.imgContainer {
+    height: 300px;
+    width: 90%;
+    position: relative;
+}
+
+.img {
+    object-fit: contain;
+}
+
+.text {
+    text-align: center;
+    font-family: var(--font-nunito)
+}
+

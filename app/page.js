@@ -1,10 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Hero } from "@/components/Hero";
-import { Differences } from "@/components/Differences";
-import { Services } from "@/components/Services";
-import { Testimonials } from "@/components/Testimonials";
-import { FAQs } from "@/components/FAQs";
+
+import { Hero } from "@/components/home/Hero";
+import { Differences } from "@/components/home/Differences";
+import { Services } from "@/components/home/Services";
+import { Testimonials } from "@/components/home/Testimonials";
+import { FAQs } from "@/components/home/FAQs";
 
 export default function Home() {
   return (
