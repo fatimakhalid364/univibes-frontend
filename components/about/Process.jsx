@@ -1,5 +1,7 @@
 import mainStyles from "@/styles/about/process.module.css";
 import Image from "next/image";
+import { Button } from "../Button";
+import buttonStyles from "@/styles/button.module.css"
 export const Process = () => {
     return (
         <section className={mainStyles.mainContainer}>
@@ -62,6 +64,9 @@ export const Process = () => {
             <span className={mainStyles.shape2}>
                 <p className={mainStyles.tag}>COUNSELLING</p>
             </span>
+            <div className={mainStyles.buttonContainer}>
+                <Button text="Get Started" className={`${buttonStyles.button} ${buttonStyles.primaryButton}`} />
+            </div>
         </section>
     )
 }

@@ -88,12 +88,10 @@
     border: 1px solid black;
 } */
 
-.heading3 {
-    text-align: center;
-}
 
-.para {
-    text-align: center;
+
+.buttonContainer {
+    margin-top: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -125,6 +123,16 @@
     .numImg {
         transform: rotate(90deg);
         height: 60px;
+    }
+    .buttonContainer {
+        margin-top: 30px;
+    }
+    .heading3 {
+    text-align: center;
+    }
+
+    .para {
+        text-align: center;
     }
 }
 
