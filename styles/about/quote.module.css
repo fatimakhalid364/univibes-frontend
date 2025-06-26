@@ -6,7 +6,7 @@
     width: 100%;
     gap: 20px;
     position: relative;
-    margin-top: clamp(105px, 17vh, 150px);
+    margin-top: clamp(105px, 19vh, 150px);
 }
 
 .bodyContainer {
@@ -16,7 +16,7 @@
     width: 80%;
     padding: 0px 10px;
     gap: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .imgContainer {

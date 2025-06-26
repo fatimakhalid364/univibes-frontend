@@ -3,7 +3,7 @@
     justify-content: center;
     width: 100%;
     position: relative;
-    margin-top: clamp(105px, 17vh, 150px);
+    margin-top: clamp(105px, 19vh, 150px);
 }
 
 .bodyContainer {
@@ -13,7 +13,7 @@
     width: 80%;
     padding: 0px 10px;
     gap: 30px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .imgContainer {
