@@ -15,7 +15,7 @@
     align-items: center;
     width: 80%;
     padding: 0px 10px;
-    gap: 45px;
+    gap: 50px;
     margin-top: 40px;
 }
 
@@ -29,32 +29,45 @@
     object-fit: cover;
 }
 
-.descContainer {
+.quoteContainer {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    font-style: italic;
 }
 
-.descText {
+.quoteText {
     text-align: center;
     font-family: var(--font-rubik);
     font-weight: 500;
     font-size: 35px;
+    font-style: italic;
 }
 
 .span {
     color: var(--primary-color);
 }
 
+.openQuoteContainer, .closeQuoteContainer {
+    width: 100%;
+    display: flex;
+}
+
+.openQuoteContainer {
+    justify-content: flex-start;
+}
+
+.closeQuoteContainer {
+    justify-content: flex-end;
+}
+
 /* .closeQuote {
-    margin-left: 90%;
+    margin-left: 95%;
 } */
 
 @media (max-width: 1024px) {
-    .responsive-text {
+    .quoteText {
         font-size: 30px;
     }
 }
@@ -66,13 +79,16 @@
     .imgContainer {
         width: 100%;
     }
-    .descContainer {
+    .quoteContainer {
         width: 100%;
         align-items: center;
     }
-    .descText {
+    .quoteText {
         font-size: 26px;
     }
+    /* .closeQuote {
+    margin: 0;
+} */
     
 }
 
@@ -80,10 +96,11 @@
     .bodyContainer {
         width: 95%;
     }
-    .descContainer {
+    .quoteContainer {
         gap: 20px;
+        width: 90%;
     }
-    .descText {
+    .quoteText {
         font-size: 22px;
     }
 }

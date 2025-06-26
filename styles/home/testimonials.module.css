@@ -131,6 +131,9 @@
     .bodyContainer {
         width: 95%;
     }
+    .descContainer {
+        width: 90%;
+    }
     .proofFooter {
         flex-direction: column;
         align-items: center;
