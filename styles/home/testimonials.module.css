@@ -9,7 +9,7 @@
 .headerContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 85%;
     gap: 10px;
 }
 
