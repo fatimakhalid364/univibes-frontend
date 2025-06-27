@@ -1,0 +1,72 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    margin-top: clamp(105px, 19vh, 150px);
+}
+
+.bodyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 30px;
+
+}
+
+.mainHeading{
+    text-align: center;
+}
+
+
+.card {
+  width: 30%;
+  background-color: #F9F6FE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(74, 74, 74, 0.1);
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #D41D55;
+    margin: 20px 40px;
+}
+
+
+@media (max-width: 1024px) {
+    .card{
+      width: 45%;
+    }   
+}
+
+@media (max-width: 768px) {
+    .card{
+      width: 100%;
+    }   
+}
+
+@media (max-width: 426px) {
+    
+    .bodyContainer {
+        width: 95%;
+    }
+
+}
