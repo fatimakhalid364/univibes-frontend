@@ -1,5 +1,5 @@
 import Image from "next/image"
-import mainStyles from '@/styles/servicesPage/serviceCard.module.css';
+import mainStyles from '@/styles/services/serviceCard.module.css';
 export const ServiceCard = ({src, text}) => {
     return (
             <div className={mainStyles.cardContainer}>

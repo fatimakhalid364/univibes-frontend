@@ -1,0 +1,88 @@
+.mainContainer {
+    width: 100%;
+    position: relative;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: clamp(105px, 19vh, 150px);
+}
+
+.bodyContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 0px 10px;
+    gap: 100px;
+}
+
+.allFeaturesContainer{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.featureContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconContainer{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #F9F6FE;
+}
+
+.imageContainer{
+    width: 55%;
+}
+
+
+
+.descriptionContainer{
+    color:black;
+}
+
+.subHeading{
+    color: #282828;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+@media (max-width: 768px) {
+    .bodyContainer {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .allFeaturesContainer{
+        width:100%;
+    }
+    .imageContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+}
+
+@media (max-width: 426px) {
+    
+    .bodyContainer {
+        width: 95%;
+    }
+
+}
+
+
+
+

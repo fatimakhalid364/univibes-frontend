@@ -1,5 +1,5 @@
-import mainStyles from "@/styles/servicesPage/services.module.css";
-import { ServiceCard } from "@/components/servicesPage/ServiceCard";
+import mainStyles from "@/styles/services/services.module.css";
+import { ServiceCard } from "@/components/services/ServiceCard";
 export const Services = () => {
     return (
         <section className={mainStyles.mainContainer}>

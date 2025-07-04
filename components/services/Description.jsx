@@ -1,4 +1,4 @@
-import mainStyles from '@/styles/servicesPage/description.module.css'
+import mainStyles from '@/styles/services/description.module.css'
 
 export const Description = () => {
     return (
