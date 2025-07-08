@@ -42,6 +42,21 @@
     color:var(--primary-color);
 }
 
+.greenButton{
+    background-color: #C1DF5E;
+    border: 1px solid #C1DF5E;
+    transition: all 0.5s ease;
+
+}
+
+.greenButton a{
+    color:#282828;
+}
+
+.greenButton:hover{
+    background-color: white;
+    border: 1px solid white;
+}
 
 
 @media (max-width: 1024px) {
