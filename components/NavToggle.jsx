@@ -19,7 +19,7 @@ export const NavToggle = () => {
                 <div className={`${mainStyles.mobileMenu} ${isOpen ? mainStyles.show : ''}`}>
                     <a className="link" href="/">Home</a>
                     <a className="link" href="/about">About</a>
-                    <a className="link" href="#people">Services</a>
+                    <a className="link" href="/services">Services</a>
                     <a className="link" href="#why-us">FAQs</a>
                     <Button text="Book Your Call" className={`${buttonStyles.button} ${buttonStyles.primaryButton}`} />
                 </div>

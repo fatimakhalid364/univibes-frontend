@@ -51,6 +51,12 @@
     gap: 30px;
 }
 
+@media (max-width: 1159px) {
+    .bodyContainer {
+        width: 85%;
+    }
+}
+
 @media (max-width: 768px) {
     .bodyContainer {
         flex-direction: column;

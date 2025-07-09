@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 85%;
     padding: 0px 10px;
     gap: 30px;
     margin-top: 50px;
@@ -92,6 +92,12 @@
 
 .buttonContainer {
     margin-top: 40px;
+}
+
+@media (max-width: 1159px) {
+    .bodyContainer {
+        width: 85%;
+    }
 }
 
 @media (max-width: 1024px) {

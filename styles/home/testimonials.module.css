@@ -16,7 +16,7 @@
 
 .bodyContainer {
     display: flex;
-    width: 80%;
+    width: 85%;
     padding: 0px 10px;
     gap: 35px;
 }
@@ -95,6 +95,12 @@
 
 .tag {
     letter-spacing: 7px;
+}
+
+@media (max-width: 1159px) {
+    .bodyContainer {
+        width: 85%;
+    }
 }
 
 @media (max-width: 1024px) {

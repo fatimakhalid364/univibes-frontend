@@ -1,6 +1,6 @@
 import mainStyles from '@/styles/about/hero.module.css';
 import Image from 'next/image';
-export const AboutHero = () => {
+export const Hero = () => {
     return (
         <section className={mainStyles.mainContainer}>
             <div className={mainStyles.bodyContainer}>
