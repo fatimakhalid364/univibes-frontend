@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
-
 const mode = process.env.NODE_ENV;
-const BASE_URL = mode === "development" ? process.env.LOCAL_URL : process.env.PROD_URL;
+export const localUrl = "http://localhost:3000"
+export const prodUrl = "https://univibe-landing-site.vercel.app"
+const BASE_URL = mode === "development" ? localUrl : prodUrl;
 
 const nextConfig = {
     env: {

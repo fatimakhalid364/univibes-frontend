@@ -3,8 +3,6 @@ import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Script from 'next/script';
-import { Organization } from 'schema-dts';
-import {baseUrl} from '@/constants/urls';
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -26,6 +24,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const baseUrl = process.env.BASE_URL;
   console.log("base url is", baseUrl);
   const orgSchema = {
     '@context': 'https://schema.org',
