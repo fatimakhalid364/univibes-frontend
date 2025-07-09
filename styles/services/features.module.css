@@ -10,7 +10,7 @@
 
 .bodyContainer {
     display: flex;
-    width: 80%;
+    width: 85%;
     justify-content: space-between;
     padding: 0px 10px;
     gap: 100px;
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 .featureContainer{

@@ -8,7 +8,7 @@ export default function ServicesPage() {
   return (
     <>
         <Hero />
-        <Services/>
+        <Services />
         <Description/>
         <Features />
         <Future/>
