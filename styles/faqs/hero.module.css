@@ -1,0 +1,34 @@
+
+.mainContainer {
+  display: flex;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 110px;
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.heading{
+    color: white;
+}
+
+.paragraph{
+    color: white;
+}
+
+
+.imageContainer {
+  flex: 1;
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+}

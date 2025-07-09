@@ -17,8 +17,8 @@ export const Footer = () => {
                 <div className={mainStyles.linksContainer}>
                     <Link className={`link ${mainStyles.linkColor}`} href="/">Home</Link>
                     <Link className={`link ${mainStyles.linkColor}`} href="/about">About Us</Link>
-                    <Link className={`link ${mainStyles.linkColor}`} href="#people">Services</Link>
-                    <Link className={`link ${mainStyles.linkColor}`} href="#why-us">FAQs</Link>
+                    <Link className={`link ${mainStyles.linkColor}`} href="/services">Services</Link>
+                    <Link className={`link ${mainStyles.linkColor}`} href="/faqs">FAQs</Link>
                     <Link className={`link ${mainStyles.linkColor}`} href="#why-us">Resources</Link>
                     <Link className={`link ${mainStyles.linkColor}`} href="#why-us">Contact Us</Link>
                 </div>
