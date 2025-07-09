@@ -1,9 +1,15 @@
-.imgContainer {
-    height: 340px;
-    width: 100%;
-    position: relative;
-    margin-top: clamp(105px, 17vh, 150px);
+.mainContainer {
+  height: 340px;
+  width: 100%;
+  position: relative;
+  margin-top: clamp(105px, 17vh, 150px);
 }
+
+
+.imgContainer {
+    height: 100%;
+    width: 100%;
+}  
 
 .img {
     object-fit: cover;
@@ -33,10 +39,27 @@ clip-path: polygon(10% 0, 90% 0, 90% 60%, 93% 60%, 90% 100%, 10% 100%, 7% 60%, 1
     color: white;
 }
 
+.shape {
+    position: absolute;
+    top: 140%;
+    left: 94%;
+    background-color: var(--secondary-color);
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    padding: 10px 25px;
+}
+
+.tag {
+    letter-spacing: 7px;
+}
+
 @media (max-width: 1024px) {
     .banner{
       clip-path: polygon(5% 0, 95% 0, 95% 100%, 5% 100%);
       padding: 50px 100px;
+    }
+    .shape {
+      display: none;
     }
 }
 

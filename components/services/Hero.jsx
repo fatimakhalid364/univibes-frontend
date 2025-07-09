@@ -15,8 +15,10 @@ export const Hero = () => {
                         <p className={mainStyles.mainText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed justo nec augue convallis tincidunt.
                         </p>
                     </div>
-                
                 </div>
+                <span className={mainStyles.shape}>
+                    <p className={mainStyles.tag}>COUNSELLING</p>
+                </span>
             </section>
         </>
     )

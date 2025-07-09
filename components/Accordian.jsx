@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import mainStyles from "@/styles/home/accordian.module.css";
+import mainStyles from "@/styles/accordian.module.css";
 import Image from "next/image";
-export const Accordian = ({faqs}) => {
+import { faqs } from "@/constants/faqs";
+export const Accordian = () => {
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggle = (index) => {
@@ -16,7 +17,6 @@ export const Accordian = ({faqs}) => {
                 <div onClick={() => toggle(index)} className={mainStyles.questionContainer}>
                     <p
                         className={mainStyles.faqQuestion}
-                        
                         aria-expanded={openIndex === index}
                         aria-controls={`faq-answer-${index}`}
                     >

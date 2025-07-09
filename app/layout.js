@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Script from 'next/script';
 import { Organization } from 'schema-dts';
-import {localUrl} from '@/constants/urls';
+import {baseUrl} from '@/constants/urls';
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -26,13 +26,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  console.log("local url is", localUrl);
+  console.log("base url is", baseUrl);
   const orgSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Univibe',
-    url: localUrl,
-    logo: `${localUrl}/logo.png`,
+    url: baseUrl,
+    logo: `${baseUrl}/logo.png`,
     description: 'Univibe provides ethical, personalized and student-first educational guidance.',
     };
   return (
