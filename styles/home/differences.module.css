@@ -21,6 +21,7 @@
 
 .boldText, .thinText {
     text-align: center;
+    color: var(--text-color);
 }
 
 .bodyContainer {
